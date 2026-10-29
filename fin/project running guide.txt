@@ -1,0 +1,50 @@
+  
+AI engine Terminal 
+.\venv\Scripts\activate
+python -m uvicorn main:app --host 127.0.0.1 --port 8000
+
+
+Backend Terminal
+node src/server.js
+
+
+Frontend Terminal
+npm run dev -- --host 127.0.0.1
+
+In Browser project Running ku
+Then open the browser
+
+Go to http://127.0.0.1:5173
+
+
+
+
+//Window 1: AI Engine (start first)
+powershell
+cd C:\Users\acer\Downloads\fin\fin\ai_engine
+.\venv\Scripts\activate
+python -m uvicorn main:app --host 127.0.0.1 --port 8000
+
+Wait until you see Uvicorn running on http://127.0.0.1:8000.
+
+Window 2: Backend
+
+Open a new PowerShell window:
+
+powershell
+cd C:\Users\acer\Downloads\fin\fin\backend
+node src/server.js
+
+Wait until it says the server is running and MongoDB is connected.
+
+Window 3: Frontend
+
+Open another new PowerShell window:
+
+powershell
+cd C:\Users\acer\Downloads\fin\fin\frontend
+npm run dev -- --host 127.0.0.1
+Then open the browser
+
+Go to http://127.0.0.1:5173
+

@@ -1,0 +1,595 @@
+
+--- PROCESSING: Skill_Recommendation_System_and_Resume_Analysis_using_AI.pdf ---
+2024 IEEE Pune Section International Conference (PuneCon)
+Pune, India. Dec 13-15, 2024
+Skill Recommendation System and Resume Analysis
+using AI
+Riddhi R. Mirajkar Gitanjali R. Shinde Priya M. Shelke
+Department of Information Technology Department of CSE (AI&ML) Department of CSE (IoT, CS & BT)
+Vishwakarma Institute of Information Vishwakarma Institute of Information Vishwakarma Institute of Information
+Technology, Technology, Technology,
+Pune, India Pune, India Pune, India
+riddhi.mirajka@gmail.com gr83gita@gmail.com priya.shelke@viit.ac.in
+Sanskruti Yadav Bharat Shinde Gauri Shinde
+Department of Information Technology Department of Information Technology Department of Information Technology
+Vishwakarma Institute of Information Vishwakarma Institute of Information Vishwakarma Institute of Information
+Technology, Technology, Technology,
+Pune, India Pune, India Pune, India
+sanskrutisushrutyadav24@gmail.com bharata2003@gmail.com gaurishinde2023@gmail.com
+Abstract— The goal of the Skill Recommendation System recruitment system that makes use of AI and machine learning
+and Resume Analysis is to improve resume writing skills and can match candidates to job needs and corporate culture by
+raise the probability of getting hired for a job. It offers specific analyzing their resumes, abilities, and interests. By
+guidance on how to make your CV stand out from the thousands automating resume screening and shortlisting, not only
+of other applicants on internet job sites. The system generates increases job satisfaction and retention rates, but also
+tailored recommendations for course selection and skill optimizes the recruitment process.
+improvement based on information it has extracted from
+resumes, including experience and talents. The suggested An overview of the increasing importance of resume
+method aims to help job seekers improve their resumes and analysis in the hiring process is given in the introduction. It
+speed up the hiring process. The technology extracts relevant draws attention to the difficulties recruiters and job searchers
+data from resumes using natural language processing (NLP) face when manually assessing resumes and the possible
+techniques and offers specific recommendations for course advantages of employing AI to automate this process.[3]
+selection and improvement of skills. The aim of the system is to
+help companies find qualified applicants more quickly and help
+job seekers improve their resumes by automating the resume II. LITERATURE SURVEY
+analysis process. In "Smart Resume Analyzer: A Case Study using RNN-
+based Keyword Extraction," the aim is to show how Natural
+Keywords— Intelligence, Natural language processing, Language Processing (NLP) can be used in a Smart Resume
+Recommendation for skills, Data visualization. Analyzer to extract data from resumes, detect abilities, suggest
+job titles, offer customized resume improvement solutions,
+I. INTRODUCTION raise the likelihood that job seekers will find employment,
+provide ratings, make suggestions for changes, and store data
+This paper analyzes AI methods for automating HR tasks
+in Python. The system's customized feedback is intended to
+in the hiring process, with a particular emphasis on resume
+revolutionize the application process and boost job seekers'
+parsing and candidate shortlisting according to a variety of
+productivity. [4]
+criteria like work history, interests, and skill sets.[1] The
+technology expedites the decision-making process for The Natural Language Processing (NLP) perspective on
+reviewing resumes that have been shortlisted by using data resume analysis within the ambit of recruitment e-platforms
+visualization approaches to communicate selection outcomes. sought to leverage the machine-learning approach to tacking
+The objective of this system is to streamline the hiring process the issue of manuals of resumes. Identifying candidates based
+by automating the resume review process. on the analysis of the aforementioned profiles against
+keywords cued by relevant skill sets and deriding text from
+This project is an innovative application that automates the
+resumes is a hallmark description of natural language
+resume analysis process using techniques from artificial
+processing. [5]
+intelligence (AI) and natural language processing (NLP). This
+Streamlit-based online program allows users to upload their The article "A Machine Learning approach for automation
+resumes, from which it parses them to extract crucial of Resume Recommendation System" proposes a framework
+information such as contact details, skills, and experience.[2] in which machine learning techniques suggest resumes
+automatically. After categorizing resumes as per experience
+Moving from paper resumes to digital resumes has
+and skills, the system matches resumes on content basis and
+become common in the rapidly evolving corporate
+identifies the ones closely fitting into a particular job
+recruitment environment. Unfortunately, the present manual
+description. In this way, shortlisting candidates becomes all
+resume filling method takes a lot of time and frequently results
+the less time-consuming and laborious for a recruiter.[6]
+in candidates not being able to get a job since their talents and
+the specifications of the position don’t match. An intelligent
+979-8-3315-2782-2/24/$31.00 ©2024 IEEE 1
+60359801.4202.31436noCenuP/9011.01
+:IOD
+|
+EEEI
+4202©
+00.13$/42/2-2872-5133-8-979
+|
+)noCenuP(
+ecnerefnoC
+lanoitanretnI
+noitceS
+enuP
+EEEI
+4202
+Authorized licensed use limited to: ANNA UNIVERSITY. Downloaded on February 04,2026 at 06:55:04 UTC from IEEE Xplore. Restrictions apply.
+The purpose of Modern Resume Analyzer For Students F. New Resume Adaption Ability:
+And Organizations is to help individuals design resumes that
+(cid:120) Develop a system that is able to be adapted to new
+present their capabilities in a manner that augments their
+resumes with regular incorporating of new
+chances of securing employment. It leverages keyword
+information into the AI model.
+matching algorithms to scan resumes, extract relevant
+information, and create a ranked list for interview invitations. (cid:120) Constantly make sure that the underlying model
+By pinpointing recurring errors and offering advice on precisely reflects and is compatible with the structural
+formatting, the system boosts the quality of the resume and and content change of resumes over time.[8]
+increases the chances of interview invitations. [7]
+TABLE I. PROPOSED METHODOLOGY FOR RESUME ANALYSIS
+III. PROPOSED SYSTEM
+Serial Step Description
+Three major steps of AI-based resume analysis is No
+discussed in this methodology which revolves around the 1 Upload Provide a file upload interface for users
+importance of feature extraction, data preprocessing, model Resume to upload their resumes
+training, and iterative validation to build a robust and adaptive 2 Extract Utilize PDF parsing libraries (e.g.,
+resume analysis system. Then rephrase without copying from Text PyMuPDF, pdfplumber)to extract text from
+the reference [Refer Table. 1] theuploaded resumefile.
+3 Parse Use a resume parsing library (e.g.,
+Resume Pyresparser) to extract relevant information
+A. Data Gathering and Preparation
+(e.g., skills, experience,education)fromthe
+(cid:120) Start building the resume data set comprised of huge extractedtext.
+diversity in content, format, and style.
+4 Analyze Applynaturallanguagetechniquestocarry
+Skills out analysis of the skills being extracted, and
+(cid:120) Preprocess resumes to extract relevant data such as
+categorize the skills under the appropriate
+contact information, education credentials, work
+category.
+experiences, and skills.
+5 Display Apply natural language processing (NLP)
+(cid:120) Convert textual data to a structure that can be used for Results methods to examine the extracted skills,
+analysis. categorize them to suitable categories.
+Recommen- Based on the skills analysis, recommend
+6 d Courses relevant courses or certifications to enhance
+B. Feature extraction:
+the user's
+--- END OF EXTRACT ---
+
+--- PROCESSING: AI-Powered_Model_for_Intelligent_Resume_Recommendation_and_Feedback.pdf ---
+IEEE - 61001
+AI-Powered Model for Intelligent Resume
+Recommendation and Feedback
+Abhishek Mishra Siddharth Singh Jisha R C
+Department of Computer Science and Department of Computer Science and Department of Computer
+Applications Amrita School of Applications Amrita School of Science and Applications
+Computing, Amrita Vishwa Computing, Amrita Vishwa Amrita School of Computing,
+Vidyapeetham Amritapuri, Kerala, India Vidyapeetham Amritapuri, Kerala, India Amrita Vishwa Vidyapeetham
+Amritapuri, Kerala, India
+AM.EN.P2MCA22008@am.students.amrita.edu AM.EN.P2MCA22042@am.students.amrita.edu
+jisha@am.amrita.edu
+Abstract—The research aims to develop a system that is requirements. This feedback feature is not only increases
+capable of suggesting the most suitable resumes based on the the transparency of the recruitment process, but also
+job requirements provided by recruiters through uploaded
+gives a candidate valuable insights for their professional
+files. The proposed System approach utilizes the Bert Model to
+enhance the precision and relevance of job recommendations, and personal growth.
+and ensure a seamless alignment between skills and job In addition, the research expands its impact by incor-
+requirements. Furthermore, that system offers constructive
+porating a forward-looking aspect that involves predicting
+feedback to candidates whose skills may not match the
+future job opportunities based on the candidate skill set.
+specified job requirements, going beyond the traditional job
+recommendation process. This feedback mechanism gives This foresight feature furnish candidates with the ability to
+valuable insights for personal and professional growth, and it proactively navigate their careers in line with the changing
+is also promoting a transparent and constructive interaction industry demands. In exploring the complexities of intel-
+between candidates and the hiring process. In addition to
+ligent job recommendation and feedback, the incorpora-
+providing instant resume recommendations and feedback, our
+tion of transformer-based models represents a significant
+model will also anticipates upcoming future job opportunities
+based on the candidate’s skills set. This predictive feature is advance in the use of artificial intelligence to address
+allowing candidate to strategically plan their career paths and current challenges in the ever-changing labor market. The
+stay ahead of evolving industry demands. goal of this study is to make a valuable contribution to
+Index Terms—Bert Model,Resume Recommendation, Su-
+the ongoing discussion on the convergence of technology
+pervised learning, Feedback Mechanism
+and recruitment leading to better, open candidate-centric
+strategies for career progression.
+I. INTRODUCTION
+In an ever-changing labor market, the problem of ef- II. LITERATURE REVIEW
+fectively matching candidates to suitable job opportunities
+In [1] author proposed anticipated outcomes of the
+has become crucial. With the increasing number of job
+article include an overview of the current status of AI-
+applications and complexity of matching candidate skills
+based job recommendation systems and an analysis of the
+with specific job requirements, it is necessary to integrate
+many strategies, technologies, and algorithms employed
+advanced technologies to streamline the hiring process.
+in this field. The investigation may focus on problems,
+This research aims to contribute to this important task
+patterns, and potential paths for these systems’ creation
+by introducing an innovative AI-powered model designed
+and implementation. The writers most likely conducted a
+for intelligent job recommendations and feedback work.
+comprehensive assessment of the existing literature and
+The main goal of this study is to develop a sophisticated
+research on this topic in order to offer insights and analysis.
+system that will not only suggest the best resumes based
+One way that the article could contribute is by pointing
+on job requirements provided by recruiters, but also offer
+out areas in which research is lacking, offering potential
+constructive feedback to candidates. By leveraging the
+fixes, and offering suggestions for future developments in
+transformation capabilities of Bert model and transformer
+AI-driven job recommendation systems.
+architecture, this approach aims to improve the accuracy
+The paper [2] by R. C. Tripathi and Chandramma
+and relevance of job recommendations by understanding
+discusses an intelligent system for analyzing resumes.
+the fine grained job descriptions.
+This system aims to automatically analyze resumes and
+Through the use of natural language processing tech-
+provide recommendations to improve them. The strategy
+niques, this model seeks to create a seamless connection
+or methodology mentioned in this study likely employs
+between candidate profiles and the dynamic requirements of
+innovative algorithms or techniques for automatically ana-
+various job roles. This proposed system is going beyond to
+lyzing resumes. Artificial intelligence (AI) techniques like
+the traditional method by providing individualize feedback
+machine learning or natural language processing (NLP) can
+to candidates whose skills are not matching with the job
+be used to extract relevant information from resumes, such
+15th ICCCNT IEEE Conference,
+June 24-28, 2024,
+IIT - Mandi, Kamand, India
+61062701.4202.10016TNCCCI/9011.01
+:IOD
+| EEEI
+4202©
+00.13$/42/9-4207-3053-8-979
+|
+)TNCCCI(
+seigolonhceT
+gnikrowteN
+dna
+noitacinummoC
+gnitupmoC
+no
+ecnerefnoC
+lanoitanretnI
+ht51
+4202
+Authorized licensed use limited to: ANNA UNIVERSITY. Downloaded on February 04,2026 at 06:52:42 UTC from IEEE Xplore. Restrictions apply.
+IEEE - 61001
+as abilities, qualifications, and experience. Presumably, the The dataset can be taken from various online sources
+authors propose a system that can intelligently compare including Kaggle, this dataset consists of three main com-
+resumes to job descriptions or criteria, selecting qualified ponents: ID, Profile, and Domain. Specifically, we are using
+applicants or providing resume improvements. the ’bert-base-uncased’ model, which has been designed
+In [3] proposes an AI-powered platform to help older and optimized for this type of task. This approach relies
+adults navigate career transitions. The platform leverages heavily on BERT’s ability to understand contextual nu-
+machine learning to match individuals with suitable job ances in textual material. By fine-tuning the dataset, the
+roles based on their skills, experience, and preferences. model generates embeddings that effectively capture small
+It also guides resume writing, interview preparation, and correlations between candidate skills and job prerequisites
+networking, aiming to empower older adults to re-enter the which improves the accuracy of recommendation.
+workforce or pursue new career paths. The system most
+A. Preprocessing
+likely uses machine learning algorithms to examine numer-
+ous criteria, such as talents, experience, and preferences, During the first phase of data preparation, a careful
+to recommend appropriate career routes and job prospects cleaning process was performed to remove the unusual and
+to users. The system’s goal is to help individuals make unnecessary features. This involved removing extraordinary
+informed career decisions and reach their full professional individuals, numbers, and single-letter words, resulting in
+potential. a more refined dataset free of uncommon phrases. The
+In [4] describes a system that uses machine learning to dataset was then tokenized using the Natural Language
+recommend careers to individuals. Based on the details Toolkit (NLTK), which divides information into discrete
+provided, the system likely analyzes a person’s charac- tokens. The tokenized dataset underwent through neces-
+teristics and skills using machine learning algorithms to sary preparatory operations such as stop word removal,
+suggest job roles that would be a good fit. The system’s stemming, lemmatization, and d
+--- END OF EXTRACT ---
+
+--- PROCESSING: AI-Driven_Intelligent_System_for_Personalized_Job_Recommendations_Using_Real-Time_Skill_Identification_and_Industry_Trend_Analysis.pdf ---
+AI-Driven Intelligent System for Personalized Job
+Recommendations Using Real-Time Skill
+Identification and Industry Trend Analysis
+Apurba Nandi Avik Kumar Das Hritajit Sur
+Dept. of CSE (IoT, CS & BT) Dept. of CSE (IoT, CS & BT) Dept. of CSE (IoT, CS & BT)
+Institute of Engineering Institute of Engineering Institute of Engineering
+and Management, University and Management, University and Management, University
+of Engineering and Management of Engineering and Management of Engineering and Management
+Kolkata, India Kolkata, India Kolkata, India
+apurba.nandi@uem.edu.in avikkumar.das@uem.edu.in hritajitsur@gmail.com
+Sankalpa Dutta Arijeet Das Shuvam Podder
+Dept. of CSE (IoT, CS & BT) Dept. of CSE (IoT, CS & BT) Dept. of CSE (IoT, CS & BT)
+Institute of Engineering Institute of Engineering Institute of Engineering
+and Management, University and Management, University and Management, University
+of Engineering and Management of Engineering and Management of Engineering and Management
+Kolkata, India Kolkata, India Kolkata, India
+sankalpadutta04@gmail.com arijeetdas999@gmail.com shuvam2424@gmail.com
+Abstract—Navigatingtoday’sjobmarketischallenging,espe- uncertainty has left 79% of job seekers feeling anxious, with
+ciallyforfreshgraduatesandprofessionalsseekingtherightop- Generation Z particularly frustrated. One in five individuals
+portunities.Traditionalkeyword-basedjobsearchmethodsoften
+who started job hunting last year are still searching, and
+result in mismatches, making it difficult for candidates to find
+26% find the market especially tough. A LinkedIn report
+suitablerolesandforemployerstoconnectwiththerighttalent.
+To address this, we propose an intelligent job recommendation showsthat75%ofprofessionalsapplytoroleswheretheyare
+systemthatleveragesstructuredandunstructureddatafromjob either underqualified or overqualified, leading to hiring inef-
+portals, recruitment databases, and candidate inquiries to pro- ficiencies. In India, only 42.6% of graduates are considered
+vide highly relevant matches. Our approach integrates Named
+employable, highlighting a critical skill gap [2]. To address
+Entity Recognition (NER) with fuzzy matching to standardize
+this, intelligent job recommendation systems must accurately
+skills,ensuringbetteralignmentbetweencandidateprofilesand
+industry demands. By incorporating Levenshtein Distance for analyze and standardize job skills, ensuring better alignment
+spelling correction and frequency-based skill analysis, we refine between candidates and industry needs.
+skillextractionformorepreciserecommendations.Additionally,
+Sentence-BERT(SBERT)capturessemanticsimilaritiesbetween Over the years, researchers have explored various tech-
+job descriptions and candidate qualifications, while a multi- niques to improve job recommendations and skill extraction,
+armed bandit (MAB) algorithm optimizes job ranking. To ensuring a better match between job seekers and employers.
+enhance accessibility, MarianMT enables multilingual support.
+Early approaches relied heavily on rule-based systems and
+Experimental results show significant improvements in job
+keyword-matchingtechniquestoidentifyskillsfromjobpost-
+matching accuracy, offering an efficient, inclusive, and scalable
+solution for modern recruitment challenges. ings (Zhang et al., 2018) [3]. While these methods worked to
+Index Terms—Job Recommendation, NLP, SBERT, Mari- some extent, they lacked flexibility and often misinterpreted
+anMT, MAB, Fuzzy matching, Levenshtein Distance. skills due to variations in phrasing and context. For example,
+the same skill could be described differently across job
+I. INTRODUCTION
+descriptions, leading to inconsistencies in extraction. To ad-
+In today’s fast-changing job market, finding the right op- dresstheselimitations,researchersintroducedhybridmachine
+portunities has become a major challenge for job seekers, learning models that combined rule-based techniques with
+especially fresh graduates [1]. Traditional keyword-based statisticallearningformoreaccurateskillidentification(Yuet
+job searches often lead to mismatches due to vague job al.,2005)[4].Thesemodelsimprovedprecisionbutstillstrug-
+descriptions and unclear skill requirements. As of February gled with domain-specific terms and inconsistencies in skill
+2025, Europe’s labor market has slowed, adding 151,000 representation.Withtheriseofdeeplearning,moreadvanced
+new jobs after a revised gain of 125,000 in January. This approaches have emerged, leveraging models like Named
+14598111.5202.37456NOCAIC/9011.01
+:IOD
+|
+EEEI
+5202©
+00.13$/52/9-1144-5133-8-979
+|
+)NOCAIC(
+noitacilppA
+dna
+,ecnegilletnI
+,gnitupmoC
+no
+ecnerefnoC
+lanoitanretnI
+5202
+Authorized licensed use limited to: ANNA UNIVERSITY. Downloaded on February 04,2026 at 06:56:39 UTC from IEEE Xplore. Restrictions apply.
+Fig.1. BlockDiagramofProposedSystem
+Entity Recognition (NER) using YOLOv5 and DistilBERT method enhances skill extraction accuracy by incorporating
+to extract job-related skills with higher accuracy (Kinger et Levenshtein Distance for spelling correction and similarity
+al., 2024) [5]. These deep learning techniques significantly matching. This ensures that variations in skill representation
+outperformed traditional methods, providing a more contex- arenormalized,improvingdataconsistency.Additionally,our
+tual understanding of job descriptions. However, they still frequency-based skill analysis provides insights into trending
+faced challenges in processing large-scale job datasets and industry demands, allowing job seekers to make informed
+handling the evolving nature of job roles. Another promising career decisions. By leveraging a comprehensive pipeline of
+directioninthisfieldistheuseofclusteringmethodstomatch text preprocessing, NER-based extraction, fuzzy matching,
+professionals’ competencies with market demands (Kobets et and frequency analysis, we develop a robust framework that
+al., 2024) [6]. By analyzing patterns in job postings, these enhances job-skill alignment and optimizes job recommenda-
+methods help identify trending skills and emerging career tions.
+paths. Furthermore, knowledge graph-based techniques have The rest of this paper is structured as follows: Section II
+gained attention for their ability to structure relationships outlines the problem formulation and the proposed approach.
+betweenjobsandskills,enhancingrecommendationaccuracy Section III explains the model and methodologies for skill
+(Kavas et al., 2025) [7]. AI-driven knowledge graphs further extraction,standardization,andanalysis.SectionIVdescribes
+refine this process, though challenges such as spelling varia- the experimental setup and evaluation metrics used to assess
+tions and inconsistent skill categorization remain (Jia et al.) the model’s effectiveness. Lastly, Section V concludes with
+[8]. These methods provide a structured understanding and a discussion on potential enhancements and future research
+recent works on job-skill relationships. directions.
+Despite the progress in skill extraction techniques, several
+researchgapsremainunaddressed.First,existingmodelslack
+II. PROBLEMFORMULATIONANDAPPROACH
+robust mechanisms to standardize extracted skills, leading In today’s fast-moving job market, finding the right job
+to redundant or misclassified skill categories. For instance, or the right candidate is like searching for a needle in a
+“Machine Learning” and “ML” may be treated as separate haystack. Employers receive countless applications, many of
+skills despite representing the same concept. Second, many which don’t match their actual needs, while job seekers
+models fail to account for domain-specific terminologies, struggle to find roles that align with their skills and career
+which results in inaccurate or incomplete skill extraction. goals. To bridge this gap, we propose an intelligent job
+Third, fuzzy matching techniques have not been extensively recommendation system (Fig. 1) that simplifies the hiring
+explored in skill standardization, causing inconsistenc
+--- END OF EXTRACT ---
+
+--- PROCESSING: Optimizing_Job_Matching_Through_Automated_Resume_Screening_with_NLP_and_Machine_Learning.pdf ---
+Optimizing Job Matching Through Automated
+Resume Screening with NLP and Machine Learning
+CH Sai Surya GLVS Kiriti K Satya Saketh P Sri Charan A. Anjali
+2021IMT-024 2021IMT-035 2021IMT-050 2021IMT-072 Assistant Professor
+Information Technology Information Technology Information Technology Information Technology Information Technology
+ABV-IIITM Gwalior ABV-IIITM Gwalior ABV-IIITM Gwalior ABV-IIITM Gwalior ABV-IIITM Gwalior
+Abstract—Resume screening determines a candidate’s qual- the up-and-coming field of HR technology. Which aims to
+ification for a position based on their education, experience, automate or streamline manual processes like resume screen-
+and other resume information. Candidates are only called for
+ing. A single position can attract numerous applicants due
+interviews if their resume matches the job description. Manual
+to the presence of platforms such as LinkedIn, Twitter, and
+resumeexaminationistime-consumingandburdensome,prompt-
+ing companies to use applicant tracking systems to shortlist online talent databases. Automated systems are increasingly
+candidates based on their skills. The primary cause of rejection commoninmodernHRdepartments,facilitatingthescreening
+is often a mismatch between the job role and the applicant’s of resumes and enhancing efficiency. This enables HR profes-
+skillset.Jobseekersmustunderstandwhichjobcategoriesalign
+sionals to dedicate more time to meaningful interactions with
+with their skill sets. This study employs natural language pro-
+both applicants and employees, i.e., instead of spending a lot
+cessing(NLP)andmachinelearning(ML)techniquestoevaluate
+applicantsinrealtime.Methodssuchastokenization,stemming, of time filtering the best resumes, they can use Automated
+lemmatization,TF-IDF,andstringmatchingareusedtoidentify systemsforfilteringresumesandspendmoretimeconducting
+keywords. Subsequently, ML models are applied to determine further rounds of interviews for the applicants whose resumes
+the most suitable role for each applicant. Four models—SVM,
+are filtered by the automated system.
+logistic regression, random forest, and k-nearest neighbors—are
+Our Model uses NLP (Natural Language Processing) to
+compared for accurate classification, with SVM outperforming
+the other benchmarks. This project aims to revolutionize the screen the resumes efficiently. Natural Language Processing
+resume screening process by integrating advanced technologies (NLP) is a machine-learning technology that helps computers
+and refining our methodologies. explain, manipulate, and recognize human language. Modern
+Index Terms—Machine Learning, Natural Language Process- organizations accumulate vast amounts of voice and text
+ing, Tokenization, Lemmatization
+data from different channels such as emails, text messages,
+social media platforms, newsfeeds, videos, and audio.
+I. INTRODUCTION
+Utilizing NLP software allows them to automatically analyze
+Intoday’sfast-pacedjobmarket,efficientlysiftingthrougha and extract meaning or sentiment from this data and
+large pool of applicants to find the most suitable candidates is promptly respond to human communication in real time.
+crucial. When an employer posts a job opening, they often
+receive many applications, but around 75 percent do not When the employer uploads the applicant’s resume to this
+possesstherequiredexpertise.Hiringmanagersmustcarefully website.First,itextractsallthetest/datapresentintheresume.
+evaluate each candidate’s resume to select the most suitable The text from the resume file is extracted at the application’s
+candidate.Thetraditionalmethodofmanuallyreviewingevery front end. We further give the resume (i.e., text extracted
+resume, ranking it, and finally picking top-ranked resumes from the resume file) as input to our machine-learning
+is time-consuming and error-prone due to human limitations. model. The first step is cleaning the given resume, i.e., we
+Human resources departments may receive thousands of re- remove the URLs, hashtags, mentions, special characters,
+sumes and cover letters daily, complicating the process. The and punctuation, which is a cleaned resume. The second
+challenges a company faces in selecting the right candidate step is converting the cleaned resume into a vector form
+for their job are burdensome because of the high number of using TF-IDF. Term Frequency-Inverse Document Frequency
+applicants. The recruiter’s biggest task is to whittle down a (TF-IDF) is the most commonly used statistical method in
+vast candidate pool to the select few most qualified for the natural language processing and information retrieval. It
+job. assesses the significance of a term in a document compared
+To address this issue, we propose implementing a system to a collection of documents (i.e., a corpus). Words in a text
+that can efficiently analyze documents or resumes to quickly documentareconvertedintonumericalvaluesthatreflecttheir
+identify the required skill set and categorize candidates based importance through a text vectorization process. There are
+on their skills, overcoming the limitations of manual sorting various scoring schemes for text vectorization, with TF-IDF
+imposed by the company. Machine learning and Natural Lan- being one of the most prevalent. Now, we feed this vector as
+guage Processing are some strategies we plan to employ in theinputtotheMachineLearningModel,whichclassifiesthe
+979-8-3503-7952-5/24/$31©2024IEEE
+41069801.4202.58436TCEPSNI/9011.01
+:IOD
+|
+EEEI
+4202©
+00.13$/42/5-2597-3053-8-979
+|
+)TCEPSNI(
+seigolonhceT
+noitacinummoC
+evitceffE
+dna
+gnissecorP
+langiS
+tnegilletnI
+no
+ecnerefnoC
+lanoitanretnI
+EEEI
+4202
+Authorized licensed use limited to: ANNA UNIVERSITY. Downloaded on February 05,2026 at 08:33:42 UTC from IEEE Xplore. Restrictions apply.
+resumes and provides a better fit suited for the given resume. ”Resume Classification using Support Vector Machine” [3]
+For classification, we are using KNN (K-nearest neighbors). and is authored by Gopal Kamineni, Kandula Akhil Sai, and
+Dr.G.SivaNageswaraRao.Thepaperproposesanintelligent
+The KNN algorithm is a widely used method in machine system to automate the tasks of resume analysis and clas-
+learning for classification and regression problems. In KNN, sification using machine learning techniques, specifically the
+first, we find the nearest neighbors of a particular data point SupportVectorMachine(SVM)algorithm.Thesystemaimsto
+using any distance metric like Euclidean Distance. Now, after takeresumesandjobdescriptionsasinputandclassifywhether
+findingthenearestneighbors,iftheproblemisaclassification the resumes are suitable for the job based on parameters
+problem, we see the most common category among all the such as education, skills, work experience, and certifications.
+categories of its K neighbors and assign that particular cate- The authors discuss the limitations of existing manual and
+gorytothatparticulardatapoint.Iftheproblemisaregression automated resume screening methods and propose a hybrid
+problem, then we find the average or the weighted average of model that incorporates techniques from various approaches
+its k neighbors to find the output at a particular data point. to improve accuracy.
+Generally, we take odd values of k to avoid ties between two
+categories. There is no particular way to choose the value of
+III. METHODOLOGY
+k; we check some values of k and conclude by choosing a Thehigh-leveloverviewofourapplicationisshowninFig-
+particular value of k. ure 1. First, the applicant or an employer uploads the resume
+file to the website. Then, in the front end, the application will
+II. LITERATURESURVEY
+extractalltextfromtheresumefile,referredtoasaresume,in
+Resume screening is critical for organizations to identify this paper. Before giving the data as input to the ML model,
+qualified candidates from a large applicant pool for we should preprocess the data to make the task easier.
+open positions. With the rise of digital resumes and
+increasing job applications, manual resume screening has
+become highly
+--- END OF EXTRACT ---
+
+--- PROCESSING: Resume_Analysis_and_Job_Recommendation.pdf ---
+2023 IEEE 8th International Conference for Convergence in Technology (I2CT)
+Pune, India. Apr 7-9, 2023
+Resume Analysis and Job Recommendation
+Amruta Mankawade Vithika Pungliya Roshita Bhonsle
+Department of Artificial Intelligence Department of Artificial Intelligence Department of Artificial Intelligence
+and Data Science and Data Science and Data Science
+Vishwakarma Institute of Technology Vishwakarma Institute of Technology Vishwakarma Institute of Technology
+Pune, India Pune, India Pune, India
+amruta.mankawade@vit.edu vithika.pungliya20@vit.edu roshita.bhonsle20@vit.edu
+Samruddhi Pate Atharva Purohit Ankur Raut
+Department of Artificial Intelligence Department of Artificial Intelligence Department of Artificial Intelligence
+and Data Science and Data Science and Data Science
+Vishwakarma Institute of Technology Vishwakarma Institute of Technology Vishwakarma Institute of Technology
+Pune, India Pune, India Pune, India
+samruddhi.pate20@vit.edu atharva.purohit20@vit.edu ankur.raut20@vit.edu
+Abstract— A job seeker always spends hours searching have been the driving forces behind this development.
+through the massive amount of recruiting information on the Employers use these portals to advertise job openings, and job
+Internet to identify ones that are helpful. The field of job seekers use them to publish their resumes.
+recommender systems for recruiting has just evolved and
+New graduates often find themselves at crossroads while
+experienced rapid growth. The job recommender systems view
+user profiles and design recommendation technologies that have applying for new jobs. With the huge number of platforms and
+drawn interest, been studied in academia, and been put into portals, it can be a daunting task for any new graduate to find
+practice for some use cases in industries. This study creates and the job they are looking for. Oftentimes such candidates are
+puts into practice a recommendation system for online job unsure of their skills and competencies and find it difficult to
+searching to lessen this tedious task. In this study, an architecture apply for a job that best fits their skills and experience. This is
+has been proposedto extract the most suitable professions based also challenging for job recruiters as they must sift through the
+on the resume of the individual. Natural Language Processing tens of thousands of resumes received for each position that is
+and Machine learning are used to train the model that predicts open [2]. Although it needs human intellect to assess a
+the profession. Then using this profession as a key, jobs are web candidate's suitability for a particular job profile, reviewing
+scraped from Naukri.com. The required skills of the jobs are every application manually is not practical, and doing so might
+matched with the individual's skills using a cosine similarity
+even be a waste of their time. Hence, it is becoming more and
+algorithm and are ranked and displayed to the user.
+more important to use recommender system technologies to
+help recruiters manage this large volume of information
+Keywords—Resume, Cosine similarity, Naïve Bayes, Web
+properly.
+scraping, Job Recommendation.
+The biggest issue is that it takes a long time to sort through
+I. INTRODUCTION
+all of the applications that are submitted in response to a
+With the rapid growth of the Internet came an increase in standard Internet job posting before finding the one who is best
+the amount of information that was accessible online, suited for the position. A crucial stage in the hiring process is
+necessitating a greater need to enhance users' information reviewing a candidate's résumé to ascertain whether or not they
+management skills. This greatly piques interest in specific are qualified for a certain position. It is not practicable to
+research fields and technological breakthroughs that could manually weed out the resumes because it would take a lot of
+assist handle this information overload. The two most time and money, both of which the employing organizations
+important fields are information retrieval (IR) and information cannot bear [3]. Additionally, this resume screening process is
+filtering (IF). While IR deals with automatically matching user unfair because many qualified candidates do not receive the
+information IF aims to assist customers in getting rid of attention they merit. This could lead to the hiring of ineffective
+unwanted information. individuals or the passing over of qualified candidates.
+Consequently, by automating a component of the process, the
+The online recruiting platform also referred to as the e-
+number of candidates that a person must review can be
+recruitment platform, has changed how companies hire
+decreased. Due to this, it has been important for a candidate to
+applicants and is one of the most successful business
+prepare his/her resume accordingly, which will differentiate it
+innovations [1]. Since it can be difficult for most firms to find
+from other resumes. It will be beneficial if they already get
+the ideal employee, these platforms have recently grown in
+some idea of the company they may be recruited into from
+popularity. It has long been acknowledged that a fundamental
+their resume, and based on the results, they can work on
+obstacle to corporate success is the scarcity of applicants with
+increasing the efficiency of their cv.
+particular skill sets. Online resources including social media
+applications, employment portals, and firm career web pages
+979-8-3503-3401-2/23/$31.00 ©2023 IEEE 1
+17162101.3202.16875TC2I/9011.01
+:IOD
+|
+EEEI
+3202©
+00.13$/32/2-1043-3053-8-979
+|
+)TC2I(
+ygolonhceT
+ni
+ecnegrevnoC
+rof
+ecnerefnoC
+lanoitanretnI
+ht8
+EEEI
+3202
+Authorized licensed use limited to: ANNA UNIVERSITY. Downloaded on February 05,2026 at 08:37:46 UTC from IEEE Xplore. Restrictions apply.
+With the rise of artificial intelligence and machine learning recommendation systems using SRL models, and none of it has
+techniques, the automation of this task has been made possible. been applied to systems involving big data. The authors have
+Techniques for natural language processing help interpret and proposed a way for developing a hybrid job recommendation
+parse written text to extract the necessary information [4]. system employing the SRL methods. Additionally, this
+Various fields such as candidate name, email address, approach can allow the tuning of the trade-off between not
+education, and skills can be extracted from a candidate’s only the precision but also the recall of the system to satisfy the
+resume using natural language processing. These skills can be recommendation systems’ common requirement (penalization
+extracted and compared to existing jobs to find a suitable of false positives should be harsher than false negatives since
+match for the candidate. In this study, an NLP based approach they are undesirable). The experimental findings show the
+is discussed to extract relevant information from the effectiveness of their suggested strategy and its enhanced
+candidate’s resume and suggest suitable job recommendations performance on suggestion precision.
+using Cosine Similarity and Naïve Bayes Classification. The
+[8] The authors of this paper proposed a model that, in
+proposed study will not only help candidates understand their
+essence, extracts information and statistics from a resume and
+own competitiveness in the industry but also recommend jobs
+ranks resumes in accordance with a company's preference and
+matching the candidate’s skills.
+requirements using Natural Language Processing (NLP)
+The paper is structured and organized as follows. Section II techniques. They created a job portal where employees and
+covers the literature review that contains various papers related candidates could upload their resumes for any available
+to the existing literature and has been discussed briefly. Section position. Using NLP technology, the required information
+III presents an in-depth discussion of the methodology of the would be parsed and a structure
+--- END OF EXTRACT ---

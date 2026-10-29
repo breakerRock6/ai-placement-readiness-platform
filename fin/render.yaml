@@ -1,0 +1,26 @@
+services:
+  # Node.js Backend
+  - type: web
+    name: smart-placement-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node src/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        fromGroup: shared-secrets
+      - key: JWT_SECRET
+        generate: true
+
+  # Python AI Engine
+  - type: web
+    name: smart-placement-ai
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
